@@ -1,0 +1,30 @@
+.container {
+  word-wrap: break-word;
+  max-width: 650px;
+  margin: 20px auto;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+
+.cardContainer {
+  border-radius: 8px;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  min-height: 275px;
+  box-shadow: 2px 2px 9px 1px rgba(0, 0, 0, 0.08);
+}
+
+.inputContainer {
+  margin-bottom: 20px !important;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    display: flex;
+  }
+
+  .cardContainer {
+    width: 48%;
+  }
+}
